@@ -4,5 +4,5 @@ array = [ ]
 binding.pry
 array << sentence.split(" ")
 array_2 = sentence.split(" ").collect {|word| word.reverse}
-array_2.join(" ").reverse
+array_2.join(" ")
 end
